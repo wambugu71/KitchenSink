@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = KitchenSink
+title = KitchenSink_python_kivy_demo
 
 # (str) Package name
 package.name = kitchensink
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.kivymd
+package.domain = org.kivymd.wambugu
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -33,11 +33,11 @@ source.include_exts = py, gif, png, jpg, jpeg, ttf, kv, json, txt, md
 # android.enable_androidx = True
 
 # (str) Application versioning (method 2)
-version = 0.0.1
+version = 1.0.12
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3, kivy==master, https://github.com/kivymd/KivyMD/archive/master.zip
+requirements = python3, kivy==master,pillow, https://github.com/kivymd/KivyMD/archive/master.zip
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -60,7 +60,7 @@ android.skip_update = False
 android.accept_sdk_license = True
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.archs = armeabi-v7a, arm64-v8a
+android.archs = armeabi-v7a
 
 # android.release_artifact = apk
 
